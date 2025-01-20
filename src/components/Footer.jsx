@@ -34,7 +34,7 @@ const footerLinks = [
     relatedLinks: [
       { text: 'Warranty Info', url: '/warranty' },
       { text: 'Terms of Sale', url: '/terms-of-sale' },
-      { text: 'Legal Notices', url: '/notices' }
+      { text: 'Legal Notices', url: '/notices'}
     ]
   },
   {
@@ -50,7 +50,7 @@ const footerLinks = [
 
 const Footer = () => {
   const handleLinkClick = (e, href, relatedLinks) => {
-    // You can implement custom navigation logic here
+   
     console.log('Navigating to:', href);
     console.log('Related content:', relatedLinks);
   };
